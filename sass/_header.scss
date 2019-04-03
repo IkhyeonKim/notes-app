@@ -1,0 +1,42 @@
+.header{
+    background-color: #2980b9;
+    grid-column: 1 / -1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+    &__title{
+        color: white;
+        font-size: 3rem;
+        font-weight: 500;
+        font-family: $font-primary;
+    }
+
+    &__subtitle{
+        color: white;
+        font-size: 2rem;
+        font-weight: 400;
+    }
+
+}
+
+
+/*
+.header {
+    background: #43799c;
+    color: white;
+    padding: 1.6rem 0;
+    text-align: center;
+  }
+  
+  .header__title {
+    font-size: 3.2rem;
+    margin-bottom: .4rem;
+  }
+  
+  .header__subtitle {
+    font-size: 1.6rem;
+    font-weight: 300;
+  }
+*/
